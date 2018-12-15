@@ -16,4 +16,14 @@ class LoginScreenViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func tabBarTapped(_ sender: CustomSegmentedControl) {
+        switch sender.selectedSegmentIndex {
+        case 0:
+            performSegue(withIdentifier: "Login", sender: self)
+        case 1:
+            performSegue(withIdentifier: "SignUp", sender: self)
+        default:
+            break
+        }
+    }
 }

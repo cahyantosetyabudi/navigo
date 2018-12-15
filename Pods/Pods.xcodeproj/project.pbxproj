@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B201850FB4010FD4CF417200E62150A /* Pods-NavigoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86195DD360127C7F5295A3F53F1C3805 /* Pods-NavigoTests-dummy.m */; };
+		3D74ED665710F0716B2FFA5850C27639 /* Pods-NavigoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8864E93749441FBC3D2DA8673A0695 /* Pods-NavigoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D7216BBF43EA1C39035BB1C881AE89A /* Pods-NavigoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04009C98109606240F8CD03FACD17852 /* Pods-NavigoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B692EDF4C36811A0D6B209AA7A60063A /* Pods-Navigo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7ABA56F8C39846D9DA10FA635B65F9 /* Pods-Navigo-dummy.m */; };
+		BF31EA07C72C034A52692EE1B9E96D0F /* Pods-NavigoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 750CA832CCFCCCCE7F1CCE8C8AA578D9 /* Pods-NavigoUITests-dummy.m */; };
+		C119BF754F8E95FFFD2BA32D56FE93FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C5C44C2EAF8E90E822B9379154553186 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DEAE330C2E4F658253D56F6C65E41825 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E8DD7FB0F821EAE115F6CDD39DDE6DD8 /* Pods-Navigo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F09467DBAC77FECFE7CA302D6D0B2414 /* Pods-Navigo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		017C4CB2378BA44B3BD285D0C4842058 /* Pods-NavigoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NavigoTests-frameworks.sh"; sourceTree = "<group>"; };
+		038477918FA1EDF0A0EDD35BD411DED9 /* Pods-NavigoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NavigoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		04009C98109606240F8CD03FACD17852 /* Pods-NavigoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NavigoTests-umbrella.h"; sourceTree = "<group>"; };
+		12D4A1E671D29CE44B523AC68F7CB782 /* Pods-Navigo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Navigo.release.xcconfig"; sourceTree = "<group>"; };
+		1C15046A853361854EBDB09B69B83C26 /* Pods_Navigo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Navigo.framework; path = "Pods-Navigo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32362A6616BF4DEDB7D7912618E00F04 /* Pods-Navigo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Navigo-acknowledgements.plist"; sourceTree = "<group>"; };
+		455A0B475D42D3C19DAC990ECA51ACFF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A5A64F529B9B95891F701A088CD210C /* Pods-NavigoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NavigoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C51E9F5A20C0B9F760226F0119F8F6B /* Pods-NavigoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NavigoUITests.modulemap"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6CFC8E73B11E3CF1383E386CF0A6FFB9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		750CA832CCFCCCCE7F1CCE8C8AA578D9 /* Pods-NavigoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NavigoUITests-dummy.m"; sourceTree = "<group>"; };
+		83DBBBD5E31FA1674417D5DED8BA48A6 /* Pods-NavigoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NavigoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		86195DD360127C7F5295A3F53F1C3805 /* Pods-NavigoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NavigoTests-dummy.m"; sourceTree = "<group>"; };
+		872DCCDDA1C42C428DC93FA34BE289F0 /* Pods-Navigo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Navigo-frameworks.sh"; sourceTree = "<group>"; };
+		89BCAA8423C81F4BC529F674FC43C1A7 /* Pods-NavigoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NavigoTests-resources.sh"; sourceTree = "<group>"; };
+		90091A5ADED8A9637FA0BBF8254C3878 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A8A6BB02C39C7BEEC3CFA628626531F /* Pods-NavigoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NavigoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		9EAEB244F1B8879E3157647348543C94 /* Pods-NavigoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NavigoTests.modulemap"; sourceTree = "<group>"; };
+		A327F1E4994A63506E839A4F0365A057 /* Pods-Navigo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Navigo.modulemap"; sourceTree = "<group>"; };
+		BF5B2CCC527E122D1533AEDB155A6F7E /* Pods-Navigo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Navigo-resources.sh"; sourceTree = "<group>"; };
+		C356E9A3AF537B0482771EDF921420EC /* Pods_NavigoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NavigoTests.framework; path = "Pods-NavigoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F75E1783B1B96C132311776127BDDE /* Pods-NavigoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NavigoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C785967118D483874853E2F850409A30 /* Pods-NavigoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NavigoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CD3C112B5B45DE7FE5EC4A8E300CE7ED /* Pods-Navigo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Navigo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CEA28057884C6EDFDAE4D5F06A93DA3C /* Pods-NavigoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NavigoTests.release.xcconfig"; sourceTree = "<group>"; };
+		CEE311833F55E36F52B31822740ECC26 /* Pods_NavigoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NavigoUITests.framework; path = "Pods-NavigoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE099C6DAFA2F6C63C04C3FCB73A678 /* Pods-NavigoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NavigoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D834CD4837C42F255BDD8B782EB5D92B /* Pods-Navigo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Navigo.debug.xcconfig"; sourceTree = "<group>"; };
+		D8E9EB8ACD5A8C1C2D3A220C7C168EE0 /* Pods-NavigoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NavigoUITests-resources.sh"; sourceTree = "<group>"; };
+		DBD47023A581694E1435C576274422C5 /* Pods-NavigoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NavigoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EB7ABA56F8C39846D9DA10FA635B65F9 /* Pods-Navigo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Navigo-dummy.m"; sourceTree = "<group>"; };
+		F09467DBAC77FECFE7CA302D6D0B2414 /* Pods-Navigo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Navigo-umbrella.h"; sourceTree = "<group>"; };
+		FA8864E93749441FBC3D2DA8673A0695 /* Pods-NavigoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NavigoUITests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F990F003E76CCC7A2A67AF9258AA81A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAE330C2E4F658253D56F6C65E41825 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B951B297262D3FE66A41242319C30A06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C119BF754F8E95FFFD2BA32D56FE93FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC1E952437B94F34974D1575DBBC901 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C44C2EAF8E90E822B9379154553186 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26CB3A7B331FF076D0F03AD373F328FB /* Pods-NavigoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6CFC8E73B11E3CF1383E386CF0A6FFB9 /* Info.plist */,
+				4C51E9F5A20C0B9F760226F0119F8F6B /* Pods-NavigoUITests.modulemap */,
+				DBD47023A581694E1435C576274422C5 /* Pods-NavigoUITests-acknowledgements.markdown */,
+				CFE099C6DAFA2F6C63C04C3FCB73A678 /* Pods-NavigoUITests-acknowledgements.plist */,
+				750CA832CCFCCCCE7F1CCE8C8AA578D9 /* Pods-NavigoUITests-dummy.m */,
+				9A8A6BB02C39C7BEEC3CFA628626531F /* Pods-NavigoUITests-frameworks.sh */,
+				D8E9EB8ACD5A8C1C2D3A220C7C168EE0 /* Pods-NavigoUITests-resources.sh */,
+				FA8864E93749441FBC3D2DA8673A0695 /* Pods-NavigoUITests-umbrella.h */,
+				83DBBBD5E31FA1674417D5DED8BA48A6 /* Pods-NavigoUITests.debug.xcconfig */,
+				C785967118D483874853E2F850409A30 /* Pods-NavigoUITests.release.xcconfig */,
+			);
+			name = "Pods-NavigoUITests";
+			path = "Target Support Files/Pods-NavigoUITests";
+			sourceTree = "<group>";
+		};
+		27D5C87D2083066E8716DDE6DBF61013 /* Pods-NavigoTests */ = {
+			isa = PBXGroup;
+			children = (
+				455A0B475D42D3C19DAC990ECA51ACFF /* Info.plist */,
+				9EAEB244F1B8879E3157647348543C94 /* Pods-NavigoTests.modulemap */,
+				038477918FA1EDF0A0EDD35BD411DED9 /* Pods-NavigoTests-acknowledgements.markdown */,
+				4A5A64F529B9B95891F701A088CD210C /* Pods-NavigoTests-acknowledgements.plist */,
+				86195DD360127C7F5295A3F53F1C3805 /* Pods-NavigoTests-dummy.m */,
+				017C4CB2378BA44B3BD285D0C4842058 /* Pods-NavigoTests-frameworks.sh */,
+				89BCAA8423C81F4BC529F674FC43C1A7 /* Pods-NavigoTests-resources.sh */,
+				04009C98109606240F8CD03FACD17852 /* Pods-NavigoTests-umbrella.h */,
+				C6F75E1783B1B96C132311776127BDDE /* Pods-NavigoTests.debug.xcconfig */,
+				CEA28057884C6EDFDAE4D5F06A93DA3C /* Pods-NavigoTests.release.xcconfig */,
+			);
+			name = "Pods-NavigoTests";
+			path = "Target Support Files/Pods-NavigoTests";
+			sourceTree = "<group>";
+		};
+		63AE7B3C743A4740917C7B0421A55B88 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3B601B5EEBE88E954D2C6E73997CE78 /* Pods-Navigo */,
+				27D5C87D2083066E8716DDE6DBF61013 /* Pods-NavigoTests */,
+				26CB3A7B331FF076D0F03AD373F328FB /* Pods-NavigoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A78AD078537EEA3D1731E83785C94891 /* Products */,
+				63AE7B3C743A4740917C7B0421A55B88 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A78AD078537EEA3D1731E83785C94891 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C15046A853361854EBDB09B69B83C26 /* Pods_Navigo.framework */,
+				C356E9A3AF537B0482771EDF921420EC /* Pods_NavigoTests.framework */,
+				CEE311833F55E36F52B31822740ECC26 /* Pods_NavigoUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3B601B5EEBE88E954D2C6E73997CE78 /* Pods-Navigo */ = {
+			isa = PBXGroup;
+			children = (
+				90091A5ADED8A9637FA0BBF8254C3878 /* Info.plist */,
+				A327F1E4994A63506E839A4F0365A057 /* Pods-Navigo.modulemap */,
+				CD3C112B5B45DE7FE5EC4A8E300CE7ED /* Pods-Navigo-acknowledgements.markdown */,
+				32362A6616BF4DEDB7D7912618E00F04 /* Pods-Navigo-acknowledgements.plist */,
+				EB7ABA56F8C39846D9DA10FA635B65F9 /* Pods-Navigo-dummy.m */,
+				872DCCDDA1C42C428DC93FA34BE289F0 /* Pods-Navigo-frameworks.sh */,
+				BF5B2CCC527E122D1533AEDB155A6F7E /* Pods-Navigo-resources.sh */,
+				F09467DBAC77FECFE7CA302D6D0B2414 /* Pods-Navigo-umbrella.h */,
+				D834CD4837C42F255BDD8B782EB5D92B /* Pods-Navigo.debug.xcconfig */,
+				12D4A1E671D29CE44B523AC68F7CB782 /* Pods-Navigo.release.xcconfig */,
+			);
+			name = "Pods-Navigo";
+			path = "Target Support Files/Pods-Navigo";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		23B04550E4C13C06E0EE7F032A8C3D2C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7216BBF43EA1C39035BB1C881AE89A /* Pods-NavigoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A922B1117E8FA4B972D0778F6AA4304 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D74ED665710F0716B2FFA5850C27639 /* Pods-NavigoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFE7B955266DBE01BB933C7BA92F49D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8DD7FB0F821EAE115F6CDD39DDE6DD8 /* Pods-Navigo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2FD267EAE98421E8BF5D4930B543CA1E /* Pods-NavigoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5379C67AF8D3883145B48EF6E929F018 /* Build configuration list for PBXNativeTarget "Pods-NavigoUITests" */;
+			buildPhases = (
+				F243152D6DF359A5D3FA48C630DAB21F /* Sources */,
+				9F990F003E76CCC7A2A67AF9258AA81A /* Frameworks */,
+				3A922B1117E8FA4B972D0778F6AA4304 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NavigoUITests";
+			productName = "Pods-NavigoUITests";
+			productReference = CEE311833F55E36F52B31822740ECC26 /* Pods_NavigoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		50BF47B7A0C722055BF1E9C569B7AF0F /* Pods-Navigo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B61EF1CF384AB2B0924353C4CF9B31E /* Build configuration list for PBXNativeTarget "Pods-Navigo" */;
+			buildPhases = (
+				67EFECCAC64CFF71A73C1881608CFC8E /* Sources */,
+				DEC1E952437B94F34974D1575DBBC901 /* Frameworks */,
+				4DFE7B955266DBE01BB933C7BA92F49D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Navigo";
+			productName = "Pods-Navigo";
+			productReference = 1C15046A853361854EBDB09B69B83C26 /* Pods_Navigo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8AD94FBC49ACD111FF222D1AB884765F /* Pods-NavigoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95C6A51AEBA27AFDA330B98A9982935D /* Build configuration list for PBXNativeTarget "Pods-NavigoTests" */;
+			buildPhases = (
+				3BA8819ABE48B44A0F9C839A2E00C99E /* Sources */,
+				B951B297262D3FE66A41242319C30A06 /* Frameworks */,
+				23B04550E4C13C06E0EE7F032A8C3D2C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NavigoTests";
+			productName = "Pods-NavigoTests";
+			productReference = C356E9A3AF537B0482771EDF921420EC /* Pods_NavigoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A78AD078537EEA3D1731E83785C94891 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50BF47B7A0C722055BF1E9C569B7AF0F /* Pods-Navigo */,
+				8AD94FBC49ACD111FF222D1AB884765F /* Pods-NavigoTests */,
+				2FD267EAE98421E8BF5D4930B543CA1E /* Pods-NavigoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BA8819ABE48B44A0F9C839A2E00C99E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B201850FB4010FD4CF417200E62150A /* Pods-NavigoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67EFECCAC64CFF71A73C1881608CFC8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B692EDF4C36811A0D6B209AA7A60063A /* Pods-Navigo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F243152D6DF359A5D3FA48C630DAB21F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF31EA07C72C034A52692EE1B9E96D0F /* Pods-NavigoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0A52754E404B6A00D3788780660A910C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83DBBBD5E31FA1674417D5DED8BA48A6 /* Pods-NavigoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NavigoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NavigoUITests/Pods-NavigoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NavigoUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1D23278938ADF334174C5BF2A4B6B1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8657251E3F73D2525179006CDEB16A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C785967118D483874853E2F850409A30 /* Pods-NavigoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NavigoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NavigoUITests/Pods-NavigoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NavigoUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		873AB5C50AFD95A4F36A802C24ABD6D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEA28057884C6EDFDAE4D5F06A93DA3C /* Pods-NavigoTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NavigoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NavigoTests/Pods-NavigoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NavigoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		995C3A53DEAA96B47E756185345E180D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C9D511775212FA377EAD5092F879BD85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D834CD4837C42F255BDD8B782EB5D92B /* Pods-Navigo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Navigo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Navigo/Pods-Navigo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Navigo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CFB3E4EED900B22ACE476A0E3EB45DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6F75E1783B1B96C132311776127BDDE /* Pods-NavigoTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NavigoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NavigoTests/Pods-NavigoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NavigoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F2943BF72AF400C116CE17896DD32984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12D4A1E671D29CE44B523AC68F7CB782 /* Pods-Navigo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Navigo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Navigo/Pods-Navigo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Navigo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				995C3A53DEAA96B47E756185345E180D /* Debug */,
+				1D23278938ADF334174C5BF2A4B6B1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5379C67AF8D3883145B48EF6E929F018 /* Build configuration list for PBXNativeTarget "Pods-NavigoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A52754E404B6A00D3788780660A910C /* Debug */,
+				8657251E3F73D2525179006CDEB16A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B61EF1CF384AB2B0924353C4CF9B31E /* Build configuration list for PBXNativeTarget "Pods-Navigo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9D511775212FA377EAD5092F879BD85 /* Debug */,
+				F2943BF72AF400C116CE17896DD32984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95C6A51AEBA27AFDA330B98A9982935D /* Build configuration list for PBXNativeTarget "Pods-NavigoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB3E4EED900B22ACE476A0E3EB45DDC /* Debug */,
+				873AB5C50AFD95A4F36A802C24ABD6D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

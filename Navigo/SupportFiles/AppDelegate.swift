@@ -16,9 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        let loginStoryboard = UIStoryboard(name: "LoginScreen", bundle: nil)
-        let loginScreenController = loginStoryboard.instantiateViewController(withIdentifier: "LoginScreen") as! LoginScreenViewController
-        self.window?.rootViewController = loginScreenController
+        let landingStoryboard = UIStoryboard(name: "LandingScreen", bundle: nil)
+        let landingScreenController = landingStoryboard.instantiateViewController(withIdentifier: "LandingScreen") as! LandingScreenViewController
+        self.window?.rootViewController = landingScreenController
         
         return true
     }

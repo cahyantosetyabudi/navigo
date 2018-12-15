@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01DA2890B8F467727B7573F0 /* Pods_NavigoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5894B443E1F8C3B78E49595A /* Pods_NavigoTests.framework */; };
+		7900C87D21BE45A0002B7CC8 /* RoundedField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7900C87C21BE45A0002B7CC8 /* RoundedField.swift */; };
 		791CE09921BBD7EC00FC5698 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791CE09821BBD7EC00FC5698 /* AppDelegate.swift */; };
 		791CE09E21BBD7ED00FC5698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 791CE09C21BBD7ED00FC5698 /* Main.storyboard */; };
 		791CE0A021BBD7ED00FC5698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 791CE09F21BBD7ED00FC5698 /* Assets.xcassets */; };
@@ -15,10 +17,16 @@
 		791CE0B921BBD7EE00FC5698 /* NavigoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791CE0B821BBD7EE00FC5698 /* NavigoUITests.swift */; };
 		791CE0CD21BBD9FF00FC5698 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791CE0CB21BBD9FF00FC5698 /* LoginScreenViewController.swift */; };
 		791CE0D621BBF02500FC5698 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791CE0D521BBF02500FC5698 /* HomeViewController.swift */; };
-		791CE0D821BBF3AB00FC5698 /* LoginScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 791CE0D721BBF3AB00FC5698 /* LoginScreen.storyboard */; };
+		791CE0D821BBF3AB00FC5698 /* LandingScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 791CE0D721BBF3AB00FC5698 /* LandingScreen.storyboard */; };
 		791CE0D921BBFADE00FC5698 /* Gibson-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 791CE0D121BBDA5000FC5698 /* Gibson-SemiBold.ttf */; };
 		791CE0DC21BC013400FC5698 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791CE0DB21BC013400FC5698 /* RoundedButton.swift */; };
 		791CE0DE21BC088800FC5698 /* CustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791CE0DD21BC088800FC5698 /* CustomSegmentedControl.swift */; };
+		79355D9621C51BB300FFB149 /* Gibson.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 791CE0D221BBDA5100FC5698 /* Gibson.ttf */; };
+		79355D9721C51BB800FFB149 /* Gibson-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 791CE0D021BBDA5000FC5698 /* Gibson-Light.ttf */; };
+		79355D9921C5241300FFB149 /* LandingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79355D9821C5241300FFB149 /* LandingScreenViewController.swift */; };
+		79355DBB21C53AD600FFB149 /* CustomSegmentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79355DBA21C53AD600FFB149 /* CustomSegmentedViewController.swift */; };
+		981B787BB9E204F2F1F1A8D0 /* Pods_Navigo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12DA1230AA4417D25DF09899 /* Pods_Navigo.framework */; };
+		9B543720840D3C80EDE5F98A /* Pods_NavigoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5E07BA5463B4C1DDF4A4A81 /* Pods_NavigoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12DA1230AA4417D25DF09899 /* Pods_Navigo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Navigo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14C3848099A6ABFC3A8EA2DF /* Pods-NavigoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NavigoUITests/Pods-NavigoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		213959ED2D1E2762DD12B01E /* Pods-Navigo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Navigo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Navigo/Pods-Navigo.debug.xcconfig"; sourceTree = "<group>"; };
+		318AA3FE189260ED98154C62 /* Pods-NavigoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NavigoTests/Pods-NavigoTests.release.xcconfig"; sourceTree = "<group>"; };
+		364DFF1F745B6BBBC859E341 /* Pods-NavigoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NavigoTests/Pods-NavigoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		50CE145AF9644AD8CCEC822E /* Pods-NavigoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NavigoUITests/Pods-NavigoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5894B443E1F8C3B78E49595A /* Pods_NavigoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7900C87C21BE45A0002B7CC8 /* RoundedField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedField.swift; sourceTree = "<group>"; };
 		791CE09521BBD7EC00FC5698 /* Navigo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		791CE09821BBD7EC00FC5698 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		791CE09D21BBD7ED00FC5698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,9 +72,13 @@
 		791CE0D121BBDA5000FC5698 /* Gibson-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gibson-SemiBold.ttf"; sourceTree = "<group>"; };
 		791CE0D221BBDA5100FC5698 /* Gibson.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gibson.ttf; sourceTree = "<group>"; };
 		791CE0D521BBF02500FC5698 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		791CE0D721BBF3AB00FC5698 /* LoginScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginScreen.storyboard; sourceTree = "<group>"; };
+		791CE0D721BBF3AB00FC5698 /* LandingScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LandingScreen.storyboard; sourceTree = "<group>"; };
 		791CE0DB21BC013400FC5698 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		791CE0DD21BC088800FC5698 /* CustomSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControl.swift; sourceTree = "<group>"; };
+		79355D9821C5241300FFB149 /* LandingScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScreenViewController.swift; sourceTree = "<group>"; };
+		79355DBA21C53AD600FFB149 /* CustomSegmentedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedViewController.swift; sourceTree = "<group>"; };
+		A5E07BA5463B4C1DDF4A4A81 /* Pods_NavigoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2CC3F6266E20BB6D700A19 /* Pods-Navigo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Navigo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Navigo/Pods-Navigo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				981B787BB9E204F2F1F1A8D0 /* Pods_Navigo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01DA2890B8F467727B7573F0 /* Pods_NavigoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,12 +102,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B543720840D3C80EDE5F98A /* Pods_NavigoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6DFA6A48EA539E1BCA2187D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				213959ED2D1E2762DD12B01E /* Pods-Navigo.debug.xcconfig */,
+				BE2CC3F6266E20BB6D700A19 /* Pods-Navigo.release.xcconfig */,
+				364DFF1F745B6BBBC859E341 /* Pods-NavigoTests.debug.xcconfig */,
+				318AA3FE189260ED98154C62 /* Pods-NavigoTests.release.xcconfig */,
+				14C3848099A6ABFC3A8EA2DF /* Pods-NavigoUITests.debug.xcconfig */,
+				50CE145AF9644AD8CCEC822E /* Pods-NavigoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		791CE08C21BBD7EC00FC5698 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +129,8 @@
 				791CE0AC21BBD7ED00FC5698 /* NavigoTests */,
 				791CE0B721BBD7EE00FC5698 /* NavigoUITests */,
 				791CE09621BBD7EC00FC5698 /* Products */,
+				6DFA6A48EA539E1BCA2187D6 /* Pods */,
+				EB392CC4108DB5A8946CBDAA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,7 +180,7 @@
 			children = (
 				791CE0A121BBD7ED00FC5698 /* LaunchScreen.storyboard */,
 				791CE09C21BBD7ED00FC5698 /* Main.storyboard */,
-				791CE0D721BBF3AB00FC5698 /* LoginScreen.storyboard */,
+				791CE0D721BBF3AB00FC5698 /* LandingScreen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,6 +215,8 @@
 			children = (
 				791CE0CB21BBD9FF00FC5698 /* LoginScreenViewController.swift */,
 				791CE0D521BBF02500FC5698 /* HomeViewController.swift */,
+				79355D9821C5241300FFB149 /* LandingScreenViewController.swift */,
+				79355DBA21C53AD600FFB149 /* CustomSegmentedViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -196,8 +236,19 @@
 			children = (
 				791CE0DB21BC013400FC5698 /* RoundedButton.swift */,
 				791CE0DD21BC088800FC5698 /* CustomSegmentedControl.swift */,
+				7900C87C21BE45A0002B7CC8 /* RoundedField.swift */,
 			);
 			path = Designable;
+			sourceTree = "<group>";
+		};
+		EB392CC4108DB5A8946CBDAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12DA1230AA4417D25DF09899 /* Pods_Navigo.framework */,
+				5894B443E1F8C3B78E49595A /* Pods_NavigoTests.framework */,
+				A5E07BA5463B4C1DDF4A4A81 /* Pods_NavigoUITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,9 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 791CE0BD21BBD7EE00FC5698 /* Build configuration list for PBXNativeTarget "Navigo" */;
 			buildPhases = (
+				2F840D161C02483F5FA76424 /* [CP] Check Pods Manifest.lock */,
 				791CE09121BBD7EC00FC5698 /* Sources */,
 				791CE09221BBD7EC00FC5698 /* Frameworks */,
 				791CE09321BBD7EC00FC5698 /* Resources */,
+				D0256700087637360EECDC8E /* [CP] Embed Pods Frameworks */,
+				13B9F446194B8CAEFFE522D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -224,9 +278,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 791CE0C021BBD7EE00FC5698 /* Build configuration list for PBXNativeTarget "NavigoTests" */;
 			buildPhases = (
+				0866FEDFB1515996898270BF /* [CP] Check Pods Manifest.lock */,
 				791CE0A521BBD7ED00FC5698 /* Sources */,
 				791CE0A621BBD7ED00FC5698 /* Frameworks */,
 				791CE0A721BBD7ED00FC5698 /* Resources */,
+				651B7B95AF2826C770D24DA6 /* [CP] Embed Pods Frameworks */,
+				8F81881F8F994D12E515641B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -242,9 +299,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 791CE0C321BBD7EE00FC5698 /* Build configuration list for PBXNativeTarget "NavigoUITests" */;
 			buildPhases = (
+				B4352B6B4CDF868462A11651 /* [CP] Check Pods Manifest.lock */,
 				791CE0B021BBD7EE00FC5698 /* Sources */,
 				791CE0B121BBD7EE00FC5698 /* Frameworks */,
 				791CE0B221BBD7EE00FC5698 /* Resources */,
+				9EE1D619A95818DE4BDF775E /* [CP] Embed Pods Frameworks */,
+				28F64649F9475741BA2B01E2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -309,7 +369,9 @@
 			files = (
 				791CE0A321BBD7ED00FC5698 /* LaunchScreen.storyboard in Resources */,
 				791CE0A021BBD7ED00FC5698 /* Assets.xcassets in Resources */,
-				791CE0D821BBF3AB00FC5698 /* LoginScreen.storyboard in Resources */,
+				79355D9621C51BB300FFB149 /* Gibson.ttf in Resources */,
+				791CE0D821BBF3AB00FC5698 /* LandingScreen.storyboard in Resources */,
+				79355D9721C51BB800FFB149 /* Gibson-Light.ttf in Resources */,
 				791CE09E21BBD7ED00FC5698 /* Main.storyboard in Resources */,
 				791CE0D921BBFADE00FC5698 /* Gibson-SemiBold.ttf in Resources */,
 			);
@@ -331,13 +393,163 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0866FEDFB1515996898270BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NavigoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13B9F446194B8CAEFFE522D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Navigo/Pods-Navigo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28F64649F9475741BA2B01E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NavigoUITests/Pods-NavigoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F840D161C02483F5FA76424 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Navigo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		651B7B95AF2826C770D24DA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NavigoTests/Pods-NavigoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F81881F8F994D12E515641B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NavigoTests/Pods-NavigoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EE1D619A95818DE4BDF775E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NavigoUITests/Pods-NavigoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4352B6B4CDF868462A11651 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NavigoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0256700087637360EECDC8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Navigo/Pods-Navigo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		791CE09121BBD7EC00FC5698 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7900C87D21BE45A0002B7CC8 /* RoundedField.swift in Sources */,
 				791CE0CD21BBD9FF00FC5698 /* LoginScreenViewController.swift in Sources */,
+				79355D9921C5241300FFB149 /* LandingScreenViewController.swift in Sources */,
 				791CE09921BBD7EC00FC5698 /* AppDelegate.swift in Sources */,
+				79355DBB21C53AD600FFB149 /* CustomSegmentedViewController.swift in Sources */,
 				791CE0D621BBF02500FC5698 /* HomeViewController.swift in Sources */,
 				791CE0DE21BC088800FC5698 /* CustomSegmentedControl.swift in Sources */,
 				791CE0DC21BC013400FC5698 /* RoundedButton.swift in Sources */,
@@ -504,6 +716,7 @@
 		};
 		791CE0BE21BBD7EE00FC5698 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 213959ED2D1E2762DD12B01E /* Pods-Navigo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -519,6 +732,7 @@
 		};
 		791CE0BF21BBD7EE00FC5698 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE2CC3F6266E20BB6D700A19 /* Pods-Navigo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +748,7 @@
 		};
 		791CE0C121BBD7EE00FC5698 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 364DFF1F745B6BBBC859E341 /* Pods-NavigoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -551,6 +766,7 @@
 		};
 		791CE0C221BBD7EE00FC5698 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 318AA3FE189260ED98154C62 /* Pods-NavigoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -568,6 +784,7 @@
 		};
 		791CE0C421BBD7EE00FC5698 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14C3848099A6ABFC3A8EA2DF /* Pods-NavigoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -584,6 +801,7 @@
 		};
 		791CE0C521BBD7EE00FC5698 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50CE145AF9644AD8CCEC822E /* Pods-NavigoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
